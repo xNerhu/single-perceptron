@@ -32,7 +32,7 @@ namespace SinglePerceptron {
         }
 
         /// <summary>
-        /// Trains the perceptron using Backpropagation algorithm
+        /// Trains the perceptron
         /// </summary>
         public void Train(double[] inputs, double answer) {
             double guess = FeedForwad(inputs);
